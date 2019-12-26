@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    text-align: center;
+    background-image: url("../../../Images/images\ \(1\).jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: black;
+    padding-top: 10px;
+}
+header h4{
+    color: rgb(209, 47, 47);
+}
+header nav ul li{
+    display: inline-flex;
+    padding-top: 2px;
+    padding-right: 30px;
+}
+header nav ul{
+    background-color:#555;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+header nav ul li a:hover{
+    color: gold;
+}
+.first{
+    position: relative;
+    width: 70px;
+    height: 70px;
+}
+.rounded {
+    float: right;
+    margin-right: 5px;
+}
+.clr{
+    clear: both;
+}
+section{
+    float: left;
+    margin: 0px 10px;
+    text-align: center;
+    padding: 20px 10px;
+    border: 1px grey solid;
+    width: 20%;
+    background-color: rgb(219, 219, 248);
+    border-radius: 5px;
+}
+.bd-example{
+    width: 75%;
+    float: right;
+}
+/* .stack1{
+    z-index: 1;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.stack2{
+    z-index: 2;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.stack3{
+    z-index: 3;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.stack4{
+    z-index: 4;
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+.stack5{
+    z-index: 5;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.stack6{
+    z-index: 6;
+    position: relative;
+    top: 60px;
+    left: 60px;
+}
+.stack7{
+    z-index: 7;
+    position: relative;
+    top: 70px;
+    left: 70px;
+} */
+section h4{
+    padding-bottom: 20px;
+}
+section p{
+    padding-bottom: 20px;
+}
+section button a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+   display: flex;
+   border: 2px solid #555;
+   margin-top: 50px;
+   
+}
+.container .box{
+    margin: 20px auto 10px auto;
+    width: 200px;
+    height: 180px;
+    overflow: hidden;    
+}
+.container .imgbox{
+    position: relative;
+    
+    transition: transform 2s;
+}
+.container .imgbox:hover{
+    transform: scale(1.2);
+}
+.container .details{
+    margin: 5px auto;
+    text-align: center;
+    font-size: medium;
+    font-family: cursive;
+    width: 200px;
+}
+.card .box{
+    position: relative;
+    margin: 50px auto;
+    text-align: justify;
+    font-size: small;
+    font-family: cursive;
+    width: 250px;
+    height: 180px;
+    transition: transform 2s;
+}
+Footer{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("../../../Images/images (1).jpeg.jpg");
+}
